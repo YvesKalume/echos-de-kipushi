@@ -1,0 +1,6 @@
+RewriteEngine On
+#RewriteRule ^([''])$ index.php
+RewriteRule ^event/([1-9]+)$ event.php?id=$1
+RewriteRule ^galerie/([1-9]+)$ galerie.php?id=$1
+RewriteRule ^admin/update/([1-9]+)$ admin/update.php?id=$1
+#RewriteRule ^(.+)$ 404.php

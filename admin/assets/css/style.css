@@ -1,0 +1,6 @@
+/* responsive pour admin/team.php .titre */
+@media (max-width: 991px) {
+    .titre{
+        font-size: 30px;
+    }
+}
